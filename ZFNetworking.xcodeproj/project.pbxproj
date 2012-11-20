@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		998E6B77165BCA1600A1D410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E6B76165BCA1600A1D410 /* UIKit.framework */; };
+		998E6B79165BCA1600A1D410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E6B78165BCA1600A1D410 /* Foundation.framework */; };
+		998E6B7B165BCA1600A1D410 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E6B7A165BCA1600A1D410 /* CoreGraphics.framework */; };
+		998E6B81165BCA1600A1D410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 998E6B7F165BCA1600A1D410 /* InfoPlist.strings */; };
+		998E6B83165BCA1600A1D410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E6B82165BCA1600A1D410 /* main.m */; };
+		998E6B87165BCA1600A1D410 /* ZFNetworkingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E6B86165BCA1600A1D410 /* ZFNetworkingAppDelegate.m */; };
+		998E6B89165BCA1600A1D410 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 998E6B88165BCA1600A1D410 /* Default.png */; };
+		998E6B8B165BCA1700A1D410 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 998E6B8A165BCA1700A1D410 /* Default@2x.png */; };
+		998E6B8D165BCA1700A1D410 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 998E6B8C165BCA1700A1D410 /* Default-568h@2x.png */; };
+		998E6B90165BCA1700A1D410 /* ZFNetworkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E6B8F165BCA1700A1D410 /* ZFNetworkingViewController.m */; };
+		998E6B93165BCA1700A1D410 /* ZFNetworkingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 998E6B91165BCA1700A1D410 /* ZFNetworkingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		998E6B72165BCA1600A1D410 /* ZFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		998E6B76165BCA1600A1D410 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		998E6B78165BCA1600A1D410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		998E6B7A165BCA1600A1D410 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		998E6B7E165BCA1600A1D410 /* ZFNetworking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZFNetworking-Info.plist"; sourceTree = "<group>"; };
+		998E6B80165BCA1600A1D410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		998E6B82165BCA1600A1D410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		998E6B84165BCA1600A1D410 /* ZFNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZFNetworking-Prefix.pch"; sourceTree = "<group>"; };
+		998E6B85165BCA1600A1D410 /* ZFNetworkingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFNetworkingAppDelegate.h; sourceTree = "<group>"; };
+		998E6B86165BCA1600A1D410 /* ZFNetworkingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFNetworkingAppDelegate.m; sourceTree = "<group>"; };
+		998E6B88165BCA1600A1D410 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		998E6B8A165BCA1700A1D410 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		998E6B8C165BCA1700A1D410 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		998E6B8E165BCA1700A1D410 /* ZFNetworkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFNetworkingViewController.h; sourceTree = "<group>"; };
+		998E6B8F165BCA1700A1D410 /* ZFNetworkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFNetworkingViewController.m; sourceTree = "<group>"; };
+		998E6B92165BCA1700A1D410 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZFNetworkingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998E6B6F165BCA1600A1D410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E6B77165BCA1600A1D410 /* UIKit.framework in Frameworks */,
+				998E6B79165BCA1600A1D410 /* Foundation.framework in Frameworks */,
+				998E6B7B165BCA1600A1D410 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998E6B67165BCA1600A1D410 = {
+			isa = PBXGroup;
+			children = (
+				998E6B7C165BCA1600A1D410 /* ZFNetworking */,
+				998E6B75165BCA1600A1D410 /* Frameworks */,
+				998E6B73165BCA1600A1D410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998E6B73165BCA1600A1D410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998E6B72165BCA1600A1D410 /* ZFNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998E6B75165BCA1600A1D410 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				998E6B76165BCA1600A1D410 /* UIKit.framework */,
+				998E6B78165BCA1600A1D410 /* Foundation.framework */,
+				998E6B7A165BCA1600A1D410 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		998E6B7C165BCA1600A1D410 /* ZFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				998E6B85165BCA1600A1D410 /* ZFNetworkingAppDelegate.h */,
+				998E6B86165BCA1600A1D410 /* ZFNetworkingAppDelegate.m */,
+				998E6B8E165BCA1700A1D410 /* ZFNetworkingViewController.h */,
+				998E6B8F165BCA1700A1D410 /* ZFNetworkingViewController.m */,
+				998E6B91165BCA1700A1D410 /* ZFNetworkingViewController.xib */,
+				998E6B7D165BCA1600A1D410 /* Supporting Files */,
+			);
+			path = ZFNetworking;
+			sourceTree = "<group>";
+		};
+		998E6B7D165BCA1600A1D410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				998E6B7E165BCA1600A1D410 /* ZFNetworking-Info.plist */,
+				998E6B7F165BCA1600A1D410 /* InfoPlist.strings */,
+				998E6B82165BCA1600A1D410 /* main.m */,
+				998E6B84165BCA1600A1D410 /* ZFNetworking-Prefix.pch */,
+				998E6B88165BCA1600A1D410 /* Default.png */,
+				998E6B8A165BCA1700A1D410 /* Default@2x.png */,
+				998E6B8C165BCA1700A1D410 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998E6B71165BCA1600A1D410 /* ZFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998E6B96165BCA1700A1D410 /* Build configuration list for PBXNativeTarget "ZFNetworking" */;
+			buildPhases = (
+				998E6B6E165BCA1600A1D410 /* Sources */,
+				998E6B6F165BCA1600A1D410 /* Frameworks */,
+				998E6B70165BCA1600A1D410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFNetworking;
+			productName = ZFNetworking;
+			productReference = 998E6B72165BCA1600A1D410 /* ZFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998E6B69165BCA1600A1D410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZFNetworking;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Zampounis Filippos";
+			};
+			buildConfigurationList = 998E6B6C165BCA1600A1D410 /* Build configuration list for PBXProject "ZFNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 998E6B67165BCA1600A1D410;
+			productRefGroup = 998E6B73165BCA1600A1D410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998E6B71165BCA1600A1D410 /* ZFNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998E6B70165BCA1600A1D410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E6B81165BCA1600A1D410 /* InfoPlist.strings in Resources */,
+				998E6B89165BCA1600A1D410 /* Default.png in Resources */,
+				998E6B8B165BCA1700A1D410 /* Default@2x.png in Resources */,
+				998E6B8D165BCA1700A1D410 /* Default-568h@2x.png in Resources */,
+				998E6B93165BCA1700A1D410 /* ZFNetworkingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998E6B6E165BCA1600A1D410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				998E6B83165BCA1600A1D410 /* main.m in Sources */,
+				998E6B87165BCA1600A1D410 /* ZFNetworkingAppDelegate.m in Sources */,
+				998E6B90165BCA1700A1D410 /* ZFNetworkingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		998E6B7F165BCA1600A1D410 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998E6B80165BCA1600A1D410 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		998E6B91165BCA1700A1D410 /* ZFNetworkingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				998E6B92165BCA1700A1D410 /* en */,
+			);
+			name = ZFNetworkingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998E6B94165BCA1700A1D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		998E6B95165BCA1700A1D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998E6B97165BCA1700A1D410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZFNetworking/ZFNetworking-Prefix.pch";
+				INFOPLIST_FILE = "ZFNetworking/ZFNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		998E6B98165BCA1700A1D410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZFNetworking/ZFNetworking-Prefix.pch";
+				INFOPLIST_FILE = "ZFNetworking/ZFNetworking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998E6B6C165BCA1600A1D410 /* Build configuration list for PBXProject "ZFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998E6B94165BCA1700A1D410 /* Debug */,
+				998E6B95165BCA1700A1D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998E6B96165BCA1700A1D410 /* Build configuration list for PBXNativeTarget "ZFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998E6B97165BCA1700A1D410 /* Debug */,
+				998E6B98165BCA1700A1D410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998E6B69165BCA1600A1D410 /* Project object */;
+}
