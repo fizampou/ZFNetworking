@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99027F8216662C1F0026DB1B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 99027F8116662C1F0026DB1B /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99027F8916662E860026DB1B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99027F8816662E860026DB1B /* SystemConfiguration.framework */; };
+		994B9E25165F80E200927E13 /* schema.plist in Resources */ = {isa = PBXBuildFile; fileRef = 994B9E24165F80E200927E13 /* schema.plist */; };
+		994B9E33165F8C8700927E13 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 994B9E30165F8C8700927E13 /* NSData+MD5.m */; };
+		994B9E34165F8C8700927E13 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 994B9E32165F8C8700927E13 /* NSString+MD5.m */; };
+		9989149516667B8800DBA0D2 /* ServerAndImagesData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9989149416667B8800DBA0D2 /* ServerAndImagesData.plist */; };
 		998E6B77165BCA1600A1D410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E6B76165BCA1600A1D410 /* UIKit.framework */; };
 		998E6B79165BCA1600A1D410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E6B78165BCA1600A1D410 /* Foundation.framework */; };
 		998E6B7B165BCA1600A1D410 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998E6B7A165BCA1600A1D410 /* CoreGraphics.framework */; };
@@ -30,6 +36,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99027F8016662C1F0026DB1B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		99027F8116662C1F0026DB1B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		99027F8816662E860026DB1B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		994B9E24165F80E200927E13 /* schema.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = schema.plist; sourceTree = "<group>"; };
+		994B9E2F165F8C8700927E13 /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		994B9E30165F8C8700927E13 /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		994B9E31165F8C8700927E13 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		994B9E32165F8C8700927E13 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		9989149416667B8800DBA0D2 /* ServerAndImagesData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ServerAndImagesData.plist; path = ../ServerAndImagesData.plist; sourceTree = "<group>"; };
 		998E6B72165BCA1600A1D410 /* ZFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998E6B76165BCA1600A1D410 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		998E6B78165BCA1600A1D410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99027F8916662E860026DB1B /* SystemConfiguration.framework in Frameworks */,
 				998E6B77165BCA1600A1D410 /* UIKit.framework in Frameworks */,
 				998E6B79165BCA1600A1D410 /* Foundation.framework in Frameworks */,
 				998E6B7B165BCA1600A1D410 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +97,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99027F7E16662BFF0026DB1B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				99027F8016662C1F0026DB1B /* Reachability.h */,
+				99027F8116662C1F0026DB1B /* Reachability.m */,
+			);
+			name = Reachability;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		994B9E2E165F8C7700927E13 /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				994B9E2F165F8C8700927E13 /* NSData+MD5.h */,
+				994B9E30165F8C8700927E13 /* NSData+MD5.m */,
+				994B9E31165F8C8700927E13 /* NSString+MD5.h */,
+				994B9E32165F8C8700927E13 /* NSString+MD5.m */,
+			);
+			name = MD5;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		998E6B67165BCA1600A1D410 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +139,7 @@
 		998E6B75165BCA1600A1D410 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99027F8816662E860026DB1B /* SystemConfiguration.framework */,
 				998E6B76165BCA1600A1D410 /* UIKit.framework */,
 				998E6B78165BCA1600A1D410 /* Foundation.framework */,
 				998E6B7A165BCA1600A1D410 /* CoreGraphics.framework */,
@@ -112,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				998E6BC8165BEF1D00A1D410 /* AFNetworking */,
+				99027F7E16662BFF0026DB1B /* Reachability */,
+				994B9E2E165F8C7700927E13 /* MD5 */,
 				998E6B85165BCA1600A1D410 /* ZFNetworkingAppDelegate.h */,
 				998E6B86165BCA1600A1D410 /* ZFNetworkingAppDelegate.m */,
 				998E6B8E165BCA1700A1D410 /* ZFNetworkingViewController.h */,
@@ -125,6 +166,8 @@
 		998E6B7D165BCA1600A1D410 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				994B9E24165F80E200927E13 /* schema.plist */,
+				9989149416667B8800DBA0D2 /* ServerAndImagesData.plist */,
 				998E6B7E165BCA1600A1D410 /* ZFNetworking-Info.plist */,
 				998E6B7F165BCA1600A1D410 /* InfoPlist.strings */,
 				998E6B82165BCA1600A1D410 /* main.m */,
@@ -219,6 +262,8 @@
 				998E6B8B165BCA1700A1D410 /* Default@2x.png in Resources */,
 				998E6B8D165BCA1700A1D410 /* Default-568h@2x.png in Resources */,
 				998E6B93165BCA1700A1D410 /* ZFNetworkingViewController.xib in Resources */,
+				994B9E25165F80E200927E13 /* schema.plist in Resources */,
+				9989149516667B8800DBA0D2 /* ServerAndImagesData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +286,9 @@
 				998E6BE2165BEF1D00A1D410 /* AFURLConnectionOperation.m in Sources */,
 				998E6BE3165BEF1D00A1D410 /* AFXMLRequestOperation.m in Sources */,
 				998E6BE4165BEF1D00A1D410 /* UIImageView+AFNetworking.m in Sources */,
+				994B9E33165F8C8700927E13 /* NSData+MD5.m in Sources */,
+				994B9E34165F8C8700927E13 /* NSString+MD5.m in Sources */,
+				99027F8216662C1F0026DB1B /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -288,9 +338,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -298,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -309,21 +362,26 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
 		998E6B97165BCA1700A1D410 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZFNetworking/ZFNetworking-Prefix.pch";
 				INFOPLIST_FILE = "ZFNetworking/ZFNetworking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -331,10 +389,13 @@
 		998E6B98165BCA1700A1D410 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZFNetworking/ZFNetworking-Prefix.pch";
 				INFOPLIST_FILE = "ZFNetworking/ZFNetworking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
