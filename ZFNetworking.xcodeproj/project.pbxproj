@@ -33,6 +33,8 @@
 		998E6BE2165BEF1D00A1D410 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E6BD7165BEF1D00A1D410 /* AFURLConnectionOperation.m */; };
 		998E6BE3165BEF1D00A1D410 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E6BD9165BEF1D00A1D410 /* AFXMLRequestOperation.m */; };
 		998E6BE4165BEF1D00A1D410 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E6BDB165BEF1D00A1D410 /* UIImageView+AFNetworking.m */; };
+		99DE4DA71678B45C0063B84E /* WNProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DE4DA61678B45C0063B84E /* WNProgressView.m */; };
+		99DE4DA91678B5FC0063B84E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DE4DA81678B5FC0063B84E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,9 @@
 		998E6BD9165BEF1D00A1D410 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		998E6BDA165BEF1D00A1D410 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		998E6BDB165BEF1D00A1D410 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		99DE4DA51678B45C0063B84E /* WNProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNProgressView.h; sourceTree = "<group>"; };
+		99DE4DA61678B45C0063B84E /* WNProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNProgressView.m; sourceTree = "<group>"; };
+		99DE4DA81678B5FC0063B84E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DE4DA91678B5FC0063B84E /* QuartzCore.framework in Frameworks */,
 				99027F8916662E860026DB1B /* SystemConfiguration.framework in Frameworks */,
 				998E6B77165BCA1600A1D410 /* UIKit.framework in Frameworks */,
 				998E6B79165BCA1600A1D410 /* Foundation.framework in Frameworks */,
@@ -122,6 +128,7 @@
 		998E6B67165BCA1600A1D410 = {
 			isa = PBXGroup;
 			children = (
+				99DE4DA81678B5FC0063B84E /* QuartzCore.framework */,
 				998E6B7C165BCA1600A1D410 /* ZFNetworking */,
 				998E6B75165BCA1600A1D410 /* Frameworks */,
 				998E6B73165BCA1600A1D410 /* Products */,
@@ -150,6 +157,7 @@
 		998E6B7C165BCA1600A1D410 /* ZFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				99DE4DA31678B4270063B84E /* ProgressBar Configuration */,
 				998E6BC8165BEF1D00A1D410 /* AFNetworking */,
 				99027F7E16662BFF0026DB1B /* Reachability */,
 				994B9E2E165F8C7700927E13 /* MD5 */,
@@ -203,6 +211,15 @@
 				998E6BDB165BEF1D00A1D410 /* UIImageView+AFNetworking.m */,
 			);
 			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		99DE4DA31678B4270063B84E /* ProgressBar Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				99DE4DA51678B45C0063B84E /* WNProgressView.h */,
+				99DE4DA61678B45C0063B84E /* WNProgressView.m */,
+			);
+			name = "ProgressBar Configuration";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +306,7 @@
 				994B9E33165F8C8700927E13 /* NSData+MD5.m in Sources */,
 				994B9E34165F8C8700927E13 /* NSString+MD5.m in Sources */,
 				99027F8216662C1F0026DB1B /* Reachability.m in Sources */,
+				99DE4DA71678B45C0063B84E /* WNProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

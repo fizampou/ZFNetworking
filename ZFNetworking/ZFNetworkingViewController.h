@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "AFNetworking.h"
+#import "WNProgressView.h"
+
+@class WNProgressView;
+
 
 @interface ZFNetworkingViewController : UIViewController{
     NSMutableArray *productsArray;      //Will keep all the urls of the items fow download, also their hashes.It's items are dictionaries with keys url and hash.
@@ -21,7 +25,7 @@
 }
 @property (nonatomic,retain) NSMutableArray *productsArray;
 @property (nonatomic,retain) NSMutableArray *resourcesArray;
-@property (weak, nonatomic) IBOutlet UIProgressView *progressView;
+@property (weak, nonatomic) IBOutlet WNProgressView *progressView;
 @property (weak, nonatomic) IBOutlet UILabel *progressLabel;
 @property (nonatomic, retain) NSMutableArray *productsArrayCopy;
 @property (nonatomic, assign) BOOL cancelButtonPressed;

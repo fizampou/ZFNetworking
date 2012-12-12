@@ -204,6 +204,8 @@ alpha:1.0]
                     self.progressLabel.textColor = UIColorFromRGB(0x00901C);
                     self.progressView.progressTintColor = UIColorFromRGB(0x00901C);
                     self.progressLabel.text= label;
+                    [self.cancelButton setEnabled:NO];
+
                 }
             } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
                 NSLog(@"BaaZ  File NOT Saved %@", targetPath);
@@ -226,6 +228,8 @@ alpha:1.0]
                             label = [NSString stringWithFormat:@"Download completed"];
                             self.progressLabel.textColor = UIColorFromRGB(0x00901C);
                             self.progressView.progressTintColor = UIColorFromRGB(0x00901C);
+                            [self.cancelButton setEnabled:NO];
+
                         }else{
                             //cancell was pressed
                             label = [NSString stringWithFormat:@"Download was cancelled"];
@@ -471,6 +475,7 @@ alpha:1.0]
     self.cancelButtonPressed = NO;
     self.progressLabel.textColor = [UIColor scrollViewTexturedBackgroundColor];
     self.progressView.progressTintColor = [UIColor scrollViewTexturedBackgroundColor];
+    [self.cancelButton setEnabled:YES];
 }
 
 - (void)didReceiveMemoryWarning
