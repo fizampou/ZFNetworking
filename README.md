@@ -21,7 +21,7 @@ a publick link in JSON format with the files for download (urls) and their hashe
 
 - Example:
 
-<code>
+```json
 "products": [
     {
       "product_id": "1082",
@@ -52,10 +52,8 @@ a publick link in JSON format with the files for download (urls) and their hashe
       "icon_url": "http://www.askmkmsamkas.com/system.png",
       "icon_date": "Wed, 07 Nov 2012 14:03:47 GMT",
     
-    ............
-    ............
 
-</code>
+```
 
 - You have to set that publick link on the serverAndImagesData.plist file as a LINK value.
 - You can also set ther the names on the background images for both orientations.
