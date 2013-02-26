@@ -7,12 +7,12 @@
 		<key>resources</key>
 		<array>
 			<array>
-				<string>file_url</string>
-				<string>file_hash</string>
+				<string></string>
+				<string></string>
 			</array>
 			<array>
-				<string>thumbnail_url</string>
-				<string>thumbnail_hash</string>
+				<string></string>
+				<string></string>
 			</array>
 		</array>
 		<key>products</key>
@@ -29,8 +29,8 @@
 	</dict>
 	<key>ITEMS</key>
 	<array>
-		<string>products</string>
-		<string>resources</string>
+		<string></string>
+		<string></string>
 	</array>
 </dict>
 </plist>
